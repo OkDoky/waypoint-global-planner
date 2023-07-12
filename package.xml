@@ -19,6 +19,7 @@
   <depend>pluginlib</depend>
   <depend>roscpp</depend>
   <depend>tf</depend>
+  <depend>tf2</depend>
   <depend>visualization_msgs</depend>
 
   <exec_depend>global_planner</exec_depend>
@@ -26,5 +27,6 @@
 
   <export>
     <nav_core plugin="${prefix}/bgp_plugin.xml" />
+    <nav_core plugin="${prefix}/ipbgp_plugin.xml"/>
   </export>
 </package>
