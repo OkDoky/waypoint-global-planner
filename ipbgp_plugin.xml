@@ -1,0 +1,5 @@
+<library path="lib/libinterpolate_global_planner">
+  <class name="interpolate_global_planner/InterPolateGlobalPlanner"
+    type="interpolate_global_planner::InterPolateGlobalPlanner"
+    base_class_type="nav_core::BaseGlobalPlanner"/>
+</library>
