@@ -70,6 +70,7 @@ class InterPolateGlobalPlanner : public nav_core::BaseGlobalPlanner
   private:
     double resolution_;
     bool initialized_;  //!< flag indicating the planner has been initialized
+    std::string global_frame_;
     costmap_2d::Costmap2DROS* costmap_ros_;  //!< costmap ros wrapper
     costmap_2d::Costmap2D* costmap_;  //!< costmap container
     base_local_planner::WorldModel* world_model_;  //!< world model
